@@ -36,3 +36,4 @@ trt_models/
 
 *.pth
 trt_models
+.DS_Store
