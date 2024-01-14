@@ -3,7 +3,7 @@
 
 echo $LD_LIBRARY_PATH
 # fp32
-python scripts/trt_infer.py -p trt_models/ernie_api_fp32.engine -i data/label.test.txt
+python3 scripts/trt_infer.py -p trt_models/ernie_api_fp32.engine -i data/label.test.txt
 #python scripts/trt_infer.py -p trt_models/ernie_onnx_fp32.engine -i data/label.test.txt
 
 # fp16
